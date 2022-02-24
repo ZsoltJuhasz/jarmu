@@ -1,0 +1,23 @@
+/*
+ * File: welcome.component.css
+ * Authors: Juhász Zsolt
+ * Copyright: 2022, Juhász Zsolt
+ * Group: Szoft II/N
+ * Date: 2022-02-24
+ * Github: https://github.com/ZsoltJuhasz
+ * Licenc: GNU GPL
+ */
+
+p.ex {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.piros {
+    float: left;
+}
+
+.kek {
+    float: right;
+}

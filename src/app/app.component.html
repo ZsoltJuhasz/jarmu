@@ -1,5 +1,34 @@
-<div class="container">
-  <h1>Belépés</h1>
-  
-  <app-login></app-login>
+<!--
+/*
+ * File: app.component.html
+ * Authors: Juhász Zsolt
+ * Copyright: 2022, Juhász Zsolt
+ * Group: Szoft II/N
+ * Date: 2022-02-24
+ * Github: https://github.com/ZsoltJuhasz
+ * Licenc: GNU GPL
+ */
+-->
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/welcome">Üdvözlet</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/login">Belépés</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/register">Regisztráció</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/vehicles">Autók</a>
+        </li>
+      </ul>
+    </div>
   </div>
+</nav>
+  <router-outlet></router-outlet>
